@@ -1,25 +1,27 @@
-import image1 from "./assets/image1.jpg"
-import image2 from "./assets/image2.webp"
-import image3 from "./assets/image3.jpg"
-import image4 from "./assets/image4.avif"
-import image5 from "./assets/image5.jpg"
-import image6 from "./assets/image6.jpg"
-import image7 from "./assets/image7.jpg"
-import image8 from "./assets/image8.avif"
-import image9 from "./assets/image9.jpg"
-import image10 from "./assets/image10.avif"
-import image11 from "./assets/image11.jpg"
+import whiskey from "./assets/whiskey-img.jpg";
+import beer from "./assets/beer-img.jpg";
+import vodka from "./assets/vodka-img.jpg";
+import rum from "./assets/rum-img.jpg";
+import gin from "./assets/gin-img.jpg";
+import brandy from "./assets/brandy-img.jpg";
+import wine from "./assets/wine-img.jpg";
+import cocktails from "./assets/cocktails-img.jpg";
+import liqueurs from "./assets/liqueurs-img.jpg";
+import tequila from "./assets/tequila-img.jpg";
+import mead from "./assets/mead-img.jpg";
+import allLiqours from "./assets/all-liqours.jpg";
 
 export const categories = [
-    { "category": "Snacks", "image": image1 },
-    { "category": "Main Course", "image": image2 },
-    { "category": "Desserts", "image": image3 },
-    { "category": "Pizza", "image": image4 },
-    { "category": "Burgers", "image": image5 },
-    { "category": "Sandwiches", "image": image6 },
-    { "category": "South Indian", "image": image7 },
-    { "category": "North Indian", "image": image8 },
-    { "category": "Chinese", "image": image9 },
-    { "category": "Fast Food", "image": image10 },
-    { "category": "All", "image": image11 }
-]
+  { category: "Whiskey", image: whiskey },
+  { category: "Beer", image: beer },
+  { category: "Vodka", image: vodka },
+  { category: "Rum", image: rum },
+  { category: "Gin", image: gin },
+  { category: "Brandy", image: brandy },
+  { category: "Wine", image: wine },
+  { category: "Cocktails", image: cocktails },
+  { category: "Liqueurs", image: liqueurs },
+  { category: "Tequila", image: tequila },
+  { category: "Mead", image: mead },
+  { category: "All", image: allLiqours },
+];
